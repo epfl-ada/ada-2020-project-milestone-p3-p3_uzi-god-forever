@@ -2,7 +2,7 @@
 Simultaneously Predicting If And When A Betrayal Will Occur
 
 ### 2. Abstract:
-The original article addresses two questions. The first question is to predict whether a betrayal will occur, and the second is to predict when betrayal is going to occur knowing the fact that the betrayal is doomed to happen. 
+The original article addresses two questions. The first question is to predict whether a betrayal will occur, and the second is to predict when betrayal is going to occur knowing the fact that the betrayal is doomed to happen.   
 We think that the second question is unrealistic, because it is impossible to know whether betrayal will occur in reality. A more important and more practical question is: given a dialogue, can we predict whether a betrayal will occur, and at the same time predict when the betrayal will occur (if we predict it will). The motivation for our work is exactly to address this question, and adopt two different methods to address it, and record the their performance on this question.
 
 ### 3. Research Questions
