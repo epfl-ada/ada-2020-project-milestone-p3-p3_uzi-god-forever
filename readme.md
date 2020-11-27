@@ -1,7 +1,7 @@
-### 1.Title
+### 1. Title
 Simultaneously Predicting If And When A Betrayal Will Occur
 
-### 2.Abstract:
+### 2. Abstract:
 The original article addresses two questions. The first question is to predict whether a betrayal will occur, and the second is to predict when betrayal is going to occur knowing the fact that the betrayal is doomed to happen. We think that the second question is unrealistic, because it is impossible to know whether betrayal will occur in reality. A more important and more practical question is: given a dialogue, can we predict whether a betrayal will occur, and at the same time predict when the betrayal will occur (if we predict it will). The motivation for our work is exactly to address this question, and adopt two different methods to address it, and record the their performance on this question.
 
 ### 3. Research Questions
@@ -22,10 +22,14 @@ The problem with using the models in the original paper to address this question
 
 ### 6. Proposed Timeline
 In the first week, we will replicate the training of the two models in the original paper and connect them to address the question in 3.
+
 In the second week, we will train our proposed model to address the question in 3 and we will compare the results by the two different approaches and analyze the results.
+
 In the third week, we might still do some analysis that if our proposed model have some improvements. Then we will prepare for the video and the report.
 
 ### 7. Organization within the team
 In week 1, Shanci will replicate the first model in original paper, and Ke and Ruizhi will replicate the second one.
+
 In week 2, Ke and Ruizhi will complete the construction of our proposed model. Then all us will compare and analyze the results of two methods. 
+
 In week 3, Ke and Shanci will focus on preparing the short video with main ideas. Ruizhi and Shanci will make some visualizations which will be used in video and data story.
