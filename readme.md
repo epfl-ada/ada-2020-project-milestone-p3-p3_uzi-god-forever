@@ -11,7 +11,7 @@ As described in our abstract, we will focus on such a question: Without knowing 
 ### 4. Proposed Dataset
 We will use the same dataset as the original paper.
 
-### 5.Methods
+### 5. Methods
 #### 5.1 Methods description
 To address this question, we will use two different methods.
 
@@ -19,7 +19,7 @@ To address this question, we will use two different methods.
 
 **Building a new regression model:** About the second model, we will construct a regression model, which simultaneously predict if and when a betrayal is going to happen. To achieve this, we may introduce a threshold, and if the number of seasons before the betrayal is larger than the threshold, we consider the betrayal will not happen (just a temporary idea, will be improved later).
 #### 5.2 Motivation for adopting the second method
-The problem with using the models in the original paper to address this question is, the second model (the model to predict when the betrayal occurs knowing it will) in the paper is trained with all betrayal data. However, this leads to a problem that it may be used to predict non-betrayal data (which are miss-classied to be betrayal data by the classifier), which the model has never seen in the training process. So we want to combine the two models to a single model, and train it with both betrayal and non-betrayal data, which prevents such circumstance.
+The problem with using the models in the original paper to address this question is, the second model (the model to predict when the betrayal occurs knowing it will) in the paper is trained with all betrayal data. However, this leads to a problem that it may be used to predict non-betrayal data, which are miss-classified to be betrayal data by the classifier and were never seen in the training process. So we wish to combine the two models to a single model, and train it with both betrayal and non-betrayal data, which prevents such circumstance.
 
 ### 6. Proposed Timeline
 In the first week, we will replicate the training of the two models in the original paper and connect them to address the question in 3.
